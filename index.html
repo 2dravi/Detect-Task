@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Dectect Technologies
+	</title>
+</head>
+
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+
+
+
+<body>
+	
+
+	<nav class="navbar navbar-light" id="navbar" style="background-color: #6aa0f7;">
+ 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <div class="container">
+  	<h3 >Detect Technologies </h3>
+  </div>
+</nav>
+
+<div class="container">
+<div id="mySidenav" class="sidenav">
+	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	<button class="dropdown-btn">Dropdown 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+   <input id="number" type="number">
+    <textarea class=" textarea" maxlength="100" placeholder="enter text here..."> Some Text....</textarea>
+<input type="date" class ="date" name="dateofbirth" id="dateofbirth">
+<button type="button" class="btn btn-success">Submit</button> 
+
+</div>
+    </div>
+    <div class="container" id="chart" >
+    	 <div class= "row">
+    	 	
+ 	<div class=" col-sm-8" id="main">
+ 	<!-- 	<div id="line-chart"></div> -->
+ 	<div id="chartdiv"></div>
+ 	</div>
+ </div>
+    </div>
+
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+ <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
